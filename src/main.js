@@ -1,8 +1,10 @@
 import Vue from 'vue'
-import App from './App.vue'
+import App from './App'
+import Mobile from './Mobile'
 
-Vue.config.productionTip = false
-
+var width = document.documentElement.clientWidth
+/* eslint-disable no-new */
 new Vue({
-  render: h => h(App)
-}).$mount('#app')
+  el: '#app',
+  render: h => h(width > 500 ? App : Mobile)
+})

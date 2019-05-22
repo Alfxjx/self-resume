@@ -137,12 +137,12 @@ html{
 教育背景
 ----
 
-- > 2017年9月 ~ 至今
+- 2017年9月 ~ 至今
   - **天津大学**，材料科学与工程学院
   - 材料加工工程焊接方向 – **硕士在读**
   - 发表EI 论文一篇：[阵列微坑的固态微细电解加工工艺试验]，在投SCI一篇；
   - 专业排名： 前25%；
-- > 2013年9月 ~ 2017年7月
+- 2013年9月 ~ 2017年7月
   - **天津大学**，材料科学与工程学院
   - 材料成型及控制工程 – **本科**
   - 专业排名： 26%-50%；
@@ -157,12 +157,12 @@ html{
 项目经历
 ----
 
-- 2018年5月~2019年4月
+- > 2018年5月~2019年4月
   - 航空航天用铝合金焊接过程电信号、热循环信号检测与微观组织模拟。
   - 主要负责使用高频测量仪测量焊接过程中的电流电压信号；
   - 使用热电偶测量焊接热循环曲线；
   - 并根据测量结果使用Matlab，jupyter notebook等软件进行分析处理。
-- 2019年4月
+- > 2019年4月
   - 江苏省镇江谏壁发电厂66MW水冷壁机组锅炉水冷壁更换后，
   - 使用数字图像相关法（DIC）检测水冷壁服役前、服役期间的应力情况，
   - 主要负责现场设备的安装调试，以及数据的测量工作。
@@ -187,6 +187,9 @@ html{
       showHtml: function () {
         return new Promise((resolve, reject) => {
           this.enableHtml = true
+          this.$nextTick(() => {
+            this.$refs.resumeEditor.goTop()
+          })
           resolve()
         })
       },
@@ -246,6 +249,7 @@ html{
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh; position: relative;
   }
 
   html {
@@ -254,4 +258,5 @@ html{
   *{
     box-sizing: border-box;
   }
+
 </style>
