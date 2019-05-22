@@ -1,29 +1,10 @@
-# self-resume
+# self-resume/ 个人简历
 
-## Project setup
-```
-npm install
-```
+[在线预览](https://alfxjx.github.io/self-resume/)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+![pic](./src/assets/qrcode.png)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+本项目是受[这个](https://github.com/jirengu-inc/animating-resume)的启发，本来是打算直接fork过来使用的，但是因为cli2的部署不知道为什么一直出问题，索性在cli3下，重新做了一下配置。
 
-### Run your tests
-```
-npm run test
-```
+目前的就是在vue-cli@3下完成的。
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
