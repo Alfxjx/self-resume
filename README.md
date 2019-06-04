@@ -8,3 +8,13 @@
 
 目前的就是在vue-cli@3下完成的。
 
+> 部署方法
+
+```
+npm run build
+cd dist
+git init
+git add -A
+git commit -m "dist"
+git push -f git@github.com:Alfxjx/self-resume.git master:gh-pages
+```
