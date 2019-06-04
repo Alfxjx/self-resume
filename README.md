@@ -2,7 +2,7 @@
 
 [在线预览](https://alfxjx.github.io/self-resume/)
 
-![pic](./src/assets/qrcode.png)
+![pic](https://github.com/Alfxjx/self-resume/blob/master/src/assets/qrcode.png)
 
 本项目是受[这个](https://github.com/jirengu-inc/animating-resume)的启发，本来是打算直接fork过来使用的，但是因为cli2的部署不知道为什么一直出问题，索性在cli3下，重新做了一下配置。
 
